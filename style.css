@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    width: fit-content;
+}
+
+.square {
+    display: flex;
+    justify-content: center;  /* useless without flex */
+    align-items: center;     /* useless without flex */
+    font-size: 40px;
+    color: blue;
+}
